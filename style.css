@@ -1,0 +1,722 @@
+
+/*CORPO DO SITE*/
+
+body{
+    margin:auto;
+    width:1080px ;
+    background-color: rgba(187, 191, 253, 0.856);
+    
+}
+/*CABEÇALHO*/
+img {
+   width: 150px;
+  
+}
+
+#logo{
+    background-image: url(/noticias.png);
+    
+   
+   
+    
+    
+}
+/*MENU*/
+#menu{
+    float: left;
+    margin-top:5px;
+    width:1079px;
+    border:1px solid;
+    
+    
+    
+}
+
+#menu a:hover{
+    color: #93a42a ;
+}
+#menu ul{
+    list-style: none;
+    background-color:aliceblue;
+    padding: 0px;
+    margin: 0px;
+
+}
+#menu li{
+    height:35px;
+    display: table-cell;
+    text-indent: 80px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+
+    
+}
+#menu ul li a{
+    
+    text-decoration: none;
+    font-size:18px;
+    font-weight: bold;
+    color:#000;
+}
+
+.fix{
+    clear:both;
+}
+/*OS SLIDE*/
+#slider{
+    
+    
+    width:1081px;
+    height:500px;
+    margin-top:15px;
+    margin-bottom:10px;
+    background-color:white;
+   
+    
+}
+#slider img{
+    border:2px solid #000;
+    width: 1077px;
+    height:400px;
+    padding: 2px;
+    
+    
+}
+
+#b1{
+    position: relative;
+    left:0px;
+    top:0px;
+    
+}
+
+#b2{
+    position: relative;
+    left:0px;
+    top:-562px;
+    
+}
+#b3{
+    position: relative;
+    left:0px;
+    top:-1084px;
+    
+}
+#b4{
+    position: relative;
+    left:0px;
+    top:-1606px;  
+   
+}
+#b5{
+    position: relative;
+    left:0px;
+    top:-2168px;
+    
+}
+
+#slider h1{
+    position: relative;
+    bottom:26px;
+    text-indent: 10px;
+    text-align:center;
+    font-size:35px;
+    color: rgb(10, 10, 10);
+    
+    letter-spacing:1px;
+    
+}
+/*VIDEO LATERAL*/
+
+#lateral {
+    text-align: center;
+    float: right;
+    width: 280px;
+    
+    
+    
+    }
+
+  #lateral h1{
+    font-size:25px;
+    padding: 5px ;
+    text-align: center;
+    letter-spacing:3px;
+}
+#lateral p{
+    font-size:18px;
+    text-align: justify;
+    
+}
+/* SEÇÃO DE NOTICIAS*/
+
+#noticias{
+    background-color: white;
+    font-size: 18px;
+    text-align: justify;
+    font-weight:10px;
+    
+    
+    
+   }
+
+ #noticias h1{
+    font-size:25px;
+    padding: 8px;
+    letter-spacing:4px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color:#7ca2e9;
+    width:757px;
+    
+    
+}
+
+#noticias, #fotos{
+    width: 775px;
+    height: 380px;
+    
+}
+#dv1, #dv2{
+    display:flex;
+    align-items: center;
+    margin:12px;
+    text-indent: 10px;
+    padding: 2px;
+    border: 1px solid #000;
+    background-color: #d3d3d3;
+   padding:16px;
+  
+    
+}
+
+#dv1 p{
+    padding: 0 20px;
+    line-height: 50px;
+    
+}
+#dv2 p{
+    padding: 0 20px;
+    line-height: 50px;
+    
+}
+
+    /*SEÇÃO TECNOLOGIA*/
+
+    #tecno  {
+      
+      background-color:white;   
+      width:1080px;
+      height: 500px;
+      
+    }
+    
+    #container div{
+        float: left;
+        margin:20px;
+        border-radius: 5px;
+        
+    }
+    #container img{
+        width: 720px;
+        height: 325px;
+        padding: 1px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        box-shadow:2px 3px;
+        
+    }
+    #container #tc1{
+        border: 1px solid #000;
+        
+    }
+
+   
+     #tc2 {
+        width: 250px;
+        text-align:center;
+        text-indent: 2px;
+        
+       
+
+     }
+     #tc2 img{
+        width: 250px;
+        height: 100px;
+        padding: 1px;
+       
+    }
+   
+   #tecno h1{
+    font-size:25px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color:#7ca2e9;
+    letter-spacing:4px;
+
+    }
+    #container h2{
+        text-align: center;
+        font-size:22px;
+        
+    }
+    #container p{
+        font-size:18px;
+       
+     }
+        
+    /*seção GAMES*/
+
+    #games{
+        width: 1080px;
+        height: 640px;
+        background-color:white;
+    }
+    #games h1{
+        font-size:25px;
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #000;
+        background-color:#7ca2e9;
+        letter-spacing:4px;
+        
+    }
+ 
+    #GF1 img{
+        width: 600px;
+        height: 500px;
+        margin: 20px;
+        padding: 1px;
+        border: 2px solid #000;
+        border-radius:5px;
+        box-shadow:2px 2px;
+        
+    }
+
+    #Gfos{
+     display: inline-block;
+     position: relative;
+     
+    }
+
+    #GF1 figcaption{
+     position: absolute;
+     bottom: 500px;
+     right: -17px;
+     margin:40px;
+     background-color: white;
+     opacity:0.7;
+     width: 600px;
+     height: 100px;
+     
+    }
+
+    figcaption p{
+        position: relative;
+        bottom:25px;
+        text-align: center;
+        padding-top:12px;
+        font-size:30px;
+        font-weight: bold;
+        color:black;
+
+    }
+
+    .img1{
+        font-size:18px;
+        
+
+    }
+    #GF2{
+        position: relative;
+        left:600px;
+        top:-528px;
+        
+    }
+    #GF2 img{
+        position: relative;
+        left: 80px;
+        width: 350px;
+        height: 200px;
+        padding: 1px;
+        border: 2px solid #000;
+        border-radius:5px;
+        box-shadow: 2px 5px;
+    }
+    #GF2 p{
+        position: relative;
+        left:50px;
+        font-size: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+    #GF3{
+        position: relative;
+        left:600px;
+        top:-528px;
+
+    }
+    #GF3 img{
+        position: relative;
+        left: 80px;
+        width: 350px;
+        height: 180px;
+        padding: 1px;
+        border: 2px solid #000;
+        border-radius:5px;
+        box-shadow: 2px 5px;
+
+    }
+    #GF3 p{
+        
+        position: relative;
+        left:40px;
+        font-size: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        
+        
+    }
+    
+    /* seção de cineseries*/
+     
+   #cineseries{
+    width: 1020;
+    height:510px;
+    background-color: white;
+   }
+
+#cine img{
+    width: 630px;
+    height:400px;
+    margin-left:30px;
+    padding: 1px;
+    border-radius:5px;
+    border:2px solid #000;
+    box-shadow: 2px 3px;
+    
+   }
+
+   #cine h2{
+    position:relative;
+    bottom:125px;
+    text-align:center;
+    padding-top:15px;
+    left: 33px;
+    background-color:white;
+    height: 65px;
+    font-size:30px;
+    font-weight:bold;
+    width: 630px;
+    opacity: 0.8;
+   
+   } 
+
+    #cineseries h1{
+    font-size:25px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color:#7ca2e9;
+    letter-spacing:4px;
+
+    }
+    .container2{
+
+    position: relative;
+    left:690px;
+    bottom: 538px;
+    right:500px;
+    width: 350px;
+    height: 405px;
+    background-color: #7ca2e9;
+    border:1px solid #000;
+    border-radius:5px;
+
+    }
+
+    #ft1 img {
+
+    position: relative;
+    right: 40px;
+    width: 140px;
+    height: 80px;
+
+    }
+
+    #ft2 img{
+
+    position: relative;
+    right: 40px;
+    width: 140px;
+    height: 80px;
+
+    }
+
+    #ft3 img{
+
+    position: relative;
+    right: 40px;
+    width: 305px;
+    height: 80px;
+
+    }
+    
+    #ft1,#ft2,#ft3{
+    display:flex;
+    align-items: center;
+    margin: 30px;
+    
+    }
+
+    #ft1 p{
+
+    margin-left: -20px;
+    font-weight: bold;
+       
+    }
+    #ft2 p{
+        
+    margin-left: -20px;
+    font-weight: bold;
+
+    }
+    
+    #ft3 p{
+
+    margin-left: -20px;
+    font-weight: bold;
+
+    }
+ 
+    .container2 h3{
+        
+    text-align: center;
+
+    }
+
+    /* seção de ESPORTE*/
+
+    #esporte{
+    background-color: white;
+     width: 1080px;
+     height:880px;
+    }
+    #esporte h1{
+
+    font-size:25px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color:#7ca2e9;
+    letter-spacing:4px;
+
+    }
+#esp1 img{
+    width: 1000px;
+    height:500px;
+    margin: 10px 38px ;
+    border:1px solid rgb(7, 7, 7);
+    box-shadow:0px 0px 5px 5px ;
+   
+    
+    
+}
+
+#esp1 p {
+    background-color:#b8bfdb;
+    width:1000px;
+    height: 70px;
+    position: relative;
+    padding-top:30px;
+    left:39px;
+    bottom: 150px;
+    font-size:35px;
+    text-indent: 2px;
+    text-align:center;
+    box-shadow: 2px 2px 2px 2px;
+    
+}
+#esp1 p {
+    opacity: 0.8;
+}
+
+.container3 div{
+    display: grid;
+    grid-template-rows: 80px 70px;
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    background-color:#7ca2e9;
+    border:2px solid #000;
+    border-radius: 5px;
+
+}
+    
+
+    
+#esp2{
+    position: relative;
+    bottom: 150px;
+    margin-left:50px;
+    margin-right: 0px;
+    box-shadow: 2px 1px;
+    
+}
+
+#esp3{
+    position: relative;
+    left:305px;
+    bottom: 354px;
+    box-shadow: 2px 1px;
+
+}
+
+#esp4{
+    position: relative;
+    left:640px;
+    bottom: 558px;
+    box-shadow: 2px 1px;
+
+    
+}
+#esp2 img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+ #esp3 img{
+    width: 300px;
+    height: 200px;
+    
+ }
+
+ #esp4 img{
+    width: 300px;
+    height: 200px;
+ }
+
+ #esp2 p{
+    font-size:16px;
+    background-color:#7ca2e9;
+    height: 50px;
+    border-radius:2px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    position: relative;
+    top:38px;
+    opacity: 0.8;
+    font-weight: bold;
+    padding-top:8px;
+ }
+
+ #esp3 p{
+    font-size:16px;
+    background-color:#7ca2e9;
+    height: 50px;
+    border-radius:2px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    position: relative;
+    top:38px;
+    opacity: 0.8;
+    font-weight: bold;
+    padding-top:8px;
+ }
+
+ #esp4 p{
+    font-size:16px;
+    background-color:#7ca2e9;
+    height: 50px;
+    border-radius:2px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    position: relative;
+    top:38px;
+    opacity: 0.8;
+    font-weight: bold;
+    padding-top:8px;
+    
+ }
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    line-height:24px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 50;
+    margin-top: 50px;;
+    
+   
+   }
+   
+   
+   .footer-1 ul{
+       line-height:30px;
+   }
+   
+   .footer-3 {
+       display: flex;
+       align-items: flex-end;
+       
+       
+   }
+    
+   @media(max-width:600px){
+    body{
+        display:inline-block;
+        padding-left: 200px;
+        margin: 0 10px;
+    }
+   }
+        
+
+        
+
+   
+
+
+   
+
+   
+    
+    
+    
+
+   
+    
+    
+        
+        
+     
+    
+   
+        
+    
+        
+        
+     
+    
+
+
+   
+    
+     
+
+
+ 
+
+    
+   
+    
+    
+ 
+ 
+    
+
+
